@@ -1,0 +1,150 @@
+.logsScroll {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  margin-top: 60px;
+}
+.logsScroll .logsItems {
+  height: 250px;
+  background: #eee;
+  width: 100%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.logsScroll .logsItems .deleteLogBox {
+  position: absolute;
+  right: -100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 260px;
+  line-height: 260px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: red;
+  float: left;
+}
+.logsScroll .logsItems .historyBox {
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+.logsScroll .logsItems .userData {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+.logsScroll .logsItems .userData .operateTime {
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+  float: left;
+  background: #fff;
+}
+.logsScroll .logsItems .userData .operateTime .title {
+  width: 80px;
+  height: 40px;
+  float: left;
+  background: #fff;
+}
+.logsScroll .logsItems .userData .operateTime span {
+  width: auto;
+  height: 40px;
+  color: #999999;
+}
+.logsScroll .logsItems .userData .userName {
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+  float: left;
+  background: #fff;
+  border-bottom: 1px solid #eeeeee;
+}
+.logsScroll .logsItems .userData .userName .title {
+  width: 80px;
+  height: 40px;
+  float: left;
+  background: #fff;
+  border-bottom: 1px solid #eeeeee;
+}
+.logsScroll .logsItems .userData .userName span {
+  width: auto;
+  height: 40px;
+  color: #999999;
+}
+.logsScroll .logsItems .xlzjUsers {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #fff;
+}
+.logsScroll .logsItems .xlzjUsers .accounts {
+  width: 80px;
+  height: auto;
+  float: left;
+  background: #fff;
+}
+.logsScroll .logsItems .xlzjUsers .accounts .title {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  float: left;
+  text-align: left;
+  line-height: 40px;
+  background: #fff;
+}
+.logsScroll .logsItems .xlzjUsers .accountsDetail {
+  height: 40px;
+  margin-left: 80px;
+  font-size: 16px;
+  padding-right: 10px;
+  background: #fff;
+}
+.logsScroll .logsItems .xlzjUsers .accountsDetail .usersAcount {
+  width: 60%;
+  height: 40px;
+  float: left;
+  line-height: 40px;
+  color: #999999;
+  background: #fff;
+}
+.logsScroll .logsItems .xlzjUsers .accountsDetail .usersStatus {
+  width: 30%;
+  height: 26px;
+  float: right;
+  margin-top: 5px;
+  line-height: 26px;
+  color: white;
+  text-align: center;
+  background: #fff;
+}
+.logsScroll .noRecord {
+  width: 100%;
+  height: 260px;
+  z-index: 99999;
+  margin-top: 30%;
+  margin-left: 0px;
+  text-align: center;
+}
+.logsScroll .noRecord img {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}
+.logsScroll .noRecord p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #999;
+}

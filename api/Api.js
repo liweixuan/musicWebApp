@@ -1,0 +1,6 @@
+var serverIP = "";
+var API = {
+
+        
+
+}

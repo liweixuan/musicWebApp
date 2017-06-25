@@ -1,0 +1,192 @@
+.etr_box {
+  height: auto;
+  background: white;
+  margin: 5px;
+  position: relative;
+}
+.ert_AccountBox {
+  height: 56px;
+  width: 100%;
+  line-height: 56px;
+  border-bottom: solid 1px #eee;
+}
+.ert_AccountBox .ert_AccountName {
+  float: left;
+  height: 56px;
+  width: 35%;
+  padding-left: 5%;
+}
+.ert_AccountBox .ert_AccountVal {
+  float: left;
+  height: 56px;
+  width: 65%;
+}
+.ert_selectBank {
+  padding: 0px;
+  margin: 15px 0 0;
+  height: 68%;
+  resize: none;
+  width: 100%;
+  background: white;
+}
+.ert_selectBank[readonly]:not(.cloned-text-input) {
+  background: white;
+}
+.ert_input {
+  margin-top: 9px;
+  width: 100%;
+  height: 100%;
+}
+.ert_TRVoucherBox {
+  height: 75px;
+  width: 100%;
+  line-height: 75px;
+  border-bottom: solid 1px #eee;
+}
+.ert_TRVoucherBox .ert_TRVoucherName {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+}
+.ert_TRVoucherBox .ert_TRVoucherVal {
+  width: 60%;
+  float: left;
+  height: 75px;
+  line-height: 14px;
+  position: relative;
+}
+.ert_TRVoucherBox .ert_TRVoucherVal .ert_TRVoucherValTop {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.ert_TRVoucherBox .ert_TRVoucherVal .ert_TRVoucherValTop .ert_upIcon {
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+  background-color: #d39bc5;
+  color: white;
+  font-size: 12px;
+}
+.ert_TRVoucherBox .ert_TRVoucherVal .ert_TRVoucherValTop .ert_upFile {
+  font-size: 12px;
+  color: #999c9c;
+}
+.ert_TRVoucherBox .ert_TRVoucherVal .ert_TRVoucherValBottom {
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  color: #999c9c;
+}
+.ert_confirm {
+  margin: 20px 3%;
+  width: 94%;
+  height: 40px;
+  background-color: #d98bbc;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.sel_BankBox {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.sel_BankBox .sel_BankMain {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  margin: 20% auto;
+  border: solid 10px #eee;
+  background-color: white;
+}
+.sel_BankBox .sel_BankMain .sel_TitleBox {
+  width: 100%;
+  height: 12%;
+  font-size: 17px;
+  margin: auto;
+  position: relative;
+  border-bottom: solid 1px #eee;
+}
+.sel_BankBox .sel_BankMain .sel_TitleBox .sel_icon {
+  position: absolute;
+  left: 2px;
+  bottom: 0px;
+}
+.sel_BankBox .sel_BankMain .sel_TitleBox .sel_Title {
+  position: absolute;
+  left: 35px;
+  bottom: 5px;
+}
+.sel_BankBox .sel_BankMain .sel_confirmSelect {
+  width: 48%;
+  height: 10%;
+  text-align: center;
+  float: right;
+  margin-right: 1%;
+}
+.sel_BankBox .sel_BankMain .sel_CancelSelect {
+  float: left;
+  width: 48%;
+  height: 10%;
+  text-align: center;
+  margin-left: 1%;
+}
+.sel_BankBox .sel_BankMain .sel_BankContBox {
+  width: 100%;
+  height: 78%;
+  background-color: white;
+  overflow: auto;
+}
+.sel_BankBox .sel_BankMain .sel_BankContBox .sel_BankAccount {
+  color: #999;
+}
+.sel_BankBox .sel_BankMain .sel_BankContBox .sel_BankIconBox {
+  margin-top: -10px;
+}
+.sel_BankBox .sel_BankMain .sel_BankContBox i {
+  color: #000;
+}
+.sel_BankBox .sel_BankMain .sel_confirmSelect,
+.sel_BankBox .sel_BankMain .sel_CancelSelect {
+  background-color: #d98bbc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.sel_BankBox .sel_BankMain .sel_confirmSelect:disabled {
+  background-color: #d9a9cd;
+}
+.sel_BankBox .sel_BankMain .sel_loading {
+  background-color: #eee;
+  position: absolute;
+  left: 0;
+  top: 12%;
+  right: 0;
+  bottom: 10%;
+  z-index: 999;
+  text-align: center;
+}
+.sel_BankBox .sel_BankMain .sel_loading .sel_loadImg {
+  display: block;
+  margin: 40% auto;
+  width: 40px;
+  height: 40px;
+}
+.sel_BankBox .sel_BankMain .sel_loading .sel_loadTxt {
+  top: 0px;
+  left: 0px;
+  padding-top: 40%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 16px;
+}

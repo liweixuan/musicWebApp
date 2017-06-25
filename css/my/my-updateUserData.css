@@ -1,0 +1,109 @@
+.popRegionBox {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99999999999;
+  width: 100%;
+  height: 100%;
+}
+.popRegionBox .selectBox {
+  width: 80%;
+  position: absolute;
+  z-index: 9999999999;
+  top: 50%;
+  left: 10%;
+  background: red;
+}
+.popRegionBox .selectBox ion-radio {
+  text-align: center;
+}
+ion-content .contentBox {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+ion-content .contentBox .rowBox {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  clear: both;
+  height: 60px;
+  background-color: white;
+}
+ion-content .contentBox .rowBox .leftBox {
+  display: block;
+  float: left;
+  width: 35%;
+  height: 20px;
+  line-height: 20px;
+}
+ion-content .contentBox .rowBox .leftBox .redStar {
+  color: red;
+  margin-right: 3px;
+}
+ion-content .contentBox .rowBox .rightBox {
+  display: block;
+  width: 65%;
+  float: left;
+  line-height: 20px;
+  height: 20px;
+}
+ion-content .contentBox .rowBox .rightBox input {
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  float: left;
+  width: 100%;
+  background-color: white;
+}
+ion-content .contentBox .rowBox .rightBox .waring {
+  height: 10px;
+  color: red;
+  font-size: 10px;
+  display: none;
+  float: left;
+}
+ion-content .contentBox .rowBox .rightBox span {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+}
+ion-content .contentBox .line {
+  clear: both;
+  background-color: #eeeeee;
+  width: 98%;
+  height: 1px;
+  margin: 0 1%;
+}
+ion-content .contentBox .rowBottomBox {
+  margin-top: 15px;
+  width: 100%;
+  height: 65px;
+  padding: 0 5%;
+}
+ion-content .contentBox .rowBottomBox .submitButton {
+  width: 48%;
+  height: 50px;
+  background-color: #D39AC5;
+  border-radius: 3px;
+  color: white;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+ion-content .contentBox .rowBottomBox .resetButton {
+  width: 48%;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #AAAAAA;
+  color: white;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 4%;
+}

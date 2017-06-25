@@ -1,0 +1,274 @@
+/*用户信息*/
+@brc: #eee;
+.userBox {
+  border-bottom: solid 1px @brc;
+  width: 100%;
+ height: auto;
+  background: url("../../resource/images/icon/my_background.png") no-repeat 0 -35px;
+
+  //登出
+  .loginOutBox {
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    padding: 10px;
+    font-size: 15px;
+    z-index: 9999;
+    color: #000;
+  }
+  /*用户图像*/
+  .usrIconBox {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    .usrIcon {
+      margin-top: 15px;
+      width: 90px;
+      height: 90px;
+      border-radius: 90px;
+    }
+    .unreadBox {
+      padding: 5px;
+      top: 20px;
+      right: 20px;
+      position: absolute;
+      .unreadIcon {
+        width: 30px;
+        height: 20px;
+      }
+      .unreadCount {
+        top: 3px;
+        right: 3px;
+        width: 10px;;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        background: red;
+      }
+    }
+
+  }
+  /*用户账号*/
+  .userAccountBox {
+    font-size: x-large;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+    .userAccountBox{
+      font-size: medium;
+      color: black;
+    }
+  }
+  .levelBox {
+    line-height: 40px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    /*等级图标*/
+    .levelIcon {
+      width: 20px;
+      height: 15px;
+      position: relative;
+    }
+    /*等级名*/
+    .levelName {
+      color: #666666;
+      margin-left: 8px;
+      position: relative;
+
+    }
+  }
+  .gradeBox {
+    width: 35%;
+    height: 30px;
+    background-color: #d39ac5;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto 10px;
+    color: white;
+    border-radius: 3px;
+    display: none;
+  }
+}
+
+/*货币和积分*/
+.moneyAndScoreBox {
+  background: white;
+  margin-top: 10px;
+
+  border-top: solid 1px @brc;
+  height: 70px;
+  text-align: center;
+  position: relative;
+  /*金额容器  积分容器*/
+  .moneyBox {
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    border-right: 1px solid @brc;
+    /*金额 积分*/
+    .moneyName {
+      color: #9a9a9a;
+      width: 100%;
+      height: 25px;
+      line-height: 25px;
+    }
+    /*金额数量 积分数量*/
+    .moneyCount {
+
+      font-size: x-large;
+      line-height: 25px;
+      width: 100%;
+      height: 25px;
+    }
+  }
+
+}
+
+/*去掉积分的右边线*/
+.moneyAndScoreBox :last-child {
+  border: none;
+}
+/*辅销品*/
+.fxp_moneyScoreBox {
+  background: white;
+  border-bottom: solid 1px @brc;
+  border-top: solid 1px @brc;
+  height: 70px;
+  text-align: center;
+  position: relative;
+  /*金额容器  积分容器*/
+  .moneyBox {
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    border-right: 1px solid @brc;
+    /*金额 积分*/
+    .moneyName {
+      color: #9a9a9a;
+      width: 100%;
+      height: 25px;
+      line-height: 25px;
+    }
+    /*金额数量 积分数量*/
+    .moneyCount {
+
+      font-size: x-large;
+      line-height: 25px;
+      width: 100%;
+      height: 25px;
+    }
+  }
+
+}
+
+/*去掉积分的右边线*/
+.fxp_moneyScoreBox :last-child {
+  border: none;
+}
+
+/*我的办公室*/
+.MyOfficeBox {
+  border-bottom: solid 1px @brc;
+  border-top: solid 1px @brc;
+  margin-top: 10px;
+  background: white;
+  width: 100%;
+  height: 50px;
+  position: relative;
+
+  .officeIconNameBox {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 30px;
+
+    .officeIcon {
+      width: 20px;
+      height: 20px;
+      float: left;
+      margin-top: 15px;
+      margin-right: 12px;
+    }
+    .officeName {
+      color: #343434;
+    }
+  }
+  /*下页的容器*/
+  .nextPageBox {
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    /*下一页*/
+    .nextPage {
+      margin-top: 17px;
+      width: 10px;
+      height: 16px;
+    }
+  }
+}
+
+/*业务相关容器*/
+.businessBox {
+
+  border-top: solid 1px @brc;
+  background: white;
+  margin-top: 10px;
+
+    /*每一个块的*/
+    .businessColBox {
+      background-color: white;
+      color: #676767;
+      height: 90px;
+      width: 33.3%;
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px @brc;
+      /*我的订单*/
+      .indentIcon {
+        margin-top: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+      }
+    }
+
+}
+
+/*遮盖层*/
+.unLoginBox {
+  vertical-align: middle;
+  margin: 0px auto;
+  width: 100%;
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  margin-top: -180px;
+  height: 360px;
+
+  img {
+    margin:  auto;
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  button {
+    margin-left: 10%;
+    width: 35%;
+    height: 35px;
+    vertical-align: middle;
+    background: #d98bbc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+}
+

@@ -1,0 +1,98 @@
+<style>
+
+	.tab-nav {
+		height:55px;  
+		background:#333333;
+  		box-shadow:0 0 5px rgba(0, 0, 0, .1);  
+		border-top:none;
+		color:#fff;
+		background-size: 0px;
+	}
+
+	.tab-item i.icon {
+		width:22px;
+		height:22px;
+		margin-top: 4px;
+		margin-bottom:6px;
+	}
+
+	.tab-item .badge{
+		right:20%;
+	}
+
+	.tab-item.musicTabIcon .icon {
+		width:24px;
+		height:24px;
+	}
+
+	.interaction_off {
+		background-image:url("resource/images/tabIcon/interaction.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.interaction_on {
+		background-image:url("resource/images/tabIcon/interactionHL.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.musicScore_off {
+		background-image:url("resource/images/tabIcon/teach.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.musicScore_on {
+		background-image:url("resource/images/tabIcon/teachHL.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.tool_off {
+		background-image:url("resource/images/tabIcon/message.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.tool_on {
+		background-image:url("resource/images/tabIcon/messageHL.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.musicalInformation_off {
+		background-image:url("resource/images/tabIcon/my.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+	.musicalInformation_on {
+		background-image:url("resource/images/tabIcon/myHL.png");
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+
+</style>
+
+<ion-tabs class="tabs-icon-top bar-stable" ng-class="{'tabs-item-hide': $root.hideTabs}">
+
+	<ion-tab title="互动" class="musicTabIcon" icon-off="interaction_off" icon-on="interaction_on" href="#/tab/interaction" ng-click="tabSelect(0)">
+		<ion-nav-view name="tab-interaction"></ion-nav-view>
+	</ion-tab>
+
+	<ion-tab title="曲谱" class="musicTabIcon" icon-off="musicScore_off" icon-on="musicScore_on" href="#/tab/musicScore" ng-click="tabSelect(1)">
+		<ion-nav-view name="tab-musicScore"></ion-nav-view>
+	</ion-tab>
+
+	<ion-tab title="工具" class="musicTabIcon" icon-off="tool_off" icon-on="tool_on"  href="#/tab/musicTool" ng-click="tabSelect(2)">
+		<ion-nav-view name="tab-musicTool"></ion-nav-view> 
+	</ion-tab> 
+
+	<ion-tab title="信息" badge="musicTabIcon" icon-off="musicalInformation_off" icon-on="musicalInformation_on" href="#/tab/musicalInformation" ng-click="tabSelect(3)">
+		<ion-nav-view name="tab-musicalInformation"></ion-nav-view>
+	</ion-tab>
+
+
+</ion-tabs>
+

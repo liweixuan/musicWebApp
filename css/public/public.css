@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 14px;
+}
+.scroll-content {
+  background: #F5F5F5;
+}
+/*通屏按钮样式*/
+.buttonPadding {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 15px;
+}
+/*公共头样式*/
+.headerBox {
+  width: 100%;
+  height: 60px;
+  z-index: 99999999;
+  position: relative;
+  background: url("../../resource/images/icon/top_background.png") no-repeat;
+  background-size: cover;
+}
+.headerBox .logoBox {
+  width: 120px;
+  height: 60px;
+  float: left;
+}
+.headerBox .logoBox .logoMain {
+  width: 100px;
+  height: 50px;
+  float: left;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+}
+.headerBox .logoBox .logoMain img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+}
+.headerBox .searchBox {
+  position: absolute;
+  left: 120px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+.headerBox .searchBox .searchInputBox {
+  width: 92%;
+  height: 35px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+  position: relative;
+}
+.headerBox .searchBox .searchInputBox input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 35px;
+  padding-right: 10px;
+}
+.headerBox .searchBox .searchInputBox i {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-size: 24px;
+  color: #D29BC4;
+}
+.headerBox .leftHeaderBox {
+  width: 30%;
+  height: 60px;
+  float: left;
+  line-height: 60px;
+}
+.headerBox .leftHeaderBox img {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+  position: relative;
+  top: 5px;
+}
+.headerBox .middleHeaderBox {
+  width: 40%;
+  height: 60px;
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+}
+.headerBox .rightHeaderBox {
+  width: 30%;
+  height: 60px;
+  float: right;
+  line-height: 60px;
+  text-align: right;
+  padding-right: 10px;
+  position: relative;
+  font-size: 12px;
+}
+.headerBox .rightHeaderBox img {
+  width: 30px;
+  height: auto;
+  position: relative;
+  top: 5px;
+}
+.headerBox .rightHeaderBox .iconHint {
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  border-radius: 5px;
+  top: 15px;
+  right: 5px;
+}
+/*通用组件样式*/
+.loactionBox {
+  width: 100%;
+  display: none;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0px;
+  z-index: 99999;
+}
+.loactionBox .locationMain {
+  width: 100%;
+  height: 240px;
+  background: #fff;
+  text-align: center;
+  line-height: 240px;
+  position: absolute;
+  bottom: -240px;
+  z-index: 9999999;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

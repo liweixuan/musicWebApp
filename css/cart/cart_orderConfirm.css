@@ -1,0 +1,709 @@
+.orderBox {
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+.orderBox .orderDetailBox {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.orderBox .orderDetailBox .scrollV {
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox {
+  width: 100%;
+  height: 120px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .noAddressContent {
+  width: 100%;
+  height: 114px;
+  text-align: center;
+  color: #BCBCBC;
+  line-height: 120px;
+  background: #fafafa;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .noAddressContent span {
+  font-size: 20px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent {
+  width: 100%;
+  height: 114px;
+  float: left;
+  position: relative;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .locationImg {
+  width: 50px;
+  height: 100%;
+  background: white;
+  float: left;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .locationImg img {
+  width: 17px;
+  height: 22px;
+  margin-top: 46px;
+  margin-left: 17px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .nextBtn {
+  width: 30px;
+  height: 114px;
+  background: white;
+  float: right;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .nextBtn .nextBtnImg {
+  width: 10px;
+  height: 20px;
+  margin-top: 47px;
+  margin-left: 5px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail {
+  height: 114px;
+  position: absolute;
+  left: 50px;
+  right: 30px;
+  top: 0px;
+  bottom: 0px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .personalInfo {
+  width: 100%;
+  height: 54px;
+  float: left;
+  background: white;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .personalInfo span {
+  font-size: 16px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .personalInfo .personName {
+  width: 50%;
+  height: 54px;
+  float: left;
+  padding-top: 30px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .personalInfo .personPhone {
+  width: 40%;
+  height: 54px;
+  float: right;
+  text-align: right;
+  padding-top: 30px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .addressInfo {
+  width: 100%;
+  height: 60px;
+  background: white;
+  float: left;
+  padding-top: 10px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .addressContent .addressDetail .addressInfo span {
+  width: 100%;
+  height: 60px;
+  margin-top: 0px;
+  float: left;
+  font-size: 16px;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .colorLine {
+  width: 100%;
+  height: 6px;
+  margin-top: 0px;
+  background: white;
+}
+.orderBox .orderDetailBox .scrollV .addressBox .colorLine img {
+  width: 100%;
+  float: left;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background: white;
+  float: left;
+  padding-top: 20px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem {
+  width: 100%;
+  height: 100px;
+  background: #fafafa;
+  position: relative;
+  border-bottom: 3px solid white;
+  margin-bottom: 3px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemImg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemImg img {
+  width: 80px;
+  height: 80px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo {
+  height: 100px;
+  float: left;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsName {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsName span {
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  font-size: 16px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsStyle {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsStyle span {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsPrice {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  position: relative;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsPrice .orderPrice {
+  width: 70%;
+  height: 30px;
+  float: left;
+  color: #A92586;
+  font-size: 14px;
+  line-height: 30px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsPrice .orderPrice span {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-size: 16px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsPrice .orderAcount {
+  width: 30%;
+  height: 30px;
+  float: right;
+  text-align: right;
+  line-height: 30px;
+}
+.orderBox .orderDetailBox .scrollV .orderGoodsBox .orderGoodsItem .orderItemInfo .orderGoodsPrice .orderAcount span {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-size: 13px;
+  margin-right: 20px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox {
+  width: 100%;
+  height: 100px;
+  background: white;
+  float: left;
+  border-top: 5px solid #f8f8f8;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel {
+  width: 100%;
+  height: 50px;
+  float: left;
+  position: relative;
+  background: white;
+  border-bottom: 2px solid #f8f8f8;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel .titleArea {
+  width: 100px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  padding-left: 10px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel .titleArea span {
+  font-size: 14px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel .setDeliveryBtn {
+  width: 30px;
+  height: 50px;
+  float: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel .setDeliveryBtn img {
+  width: 10px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderDeliveryModel .deliveryModel {
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  float: left;
+  line-height: 50px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress {
+  width: 100%;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  border-bottom: 3px solid #f8f8f8;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .titleArea {
+  width: 100px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  padding-left: 10px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .titleArea span {
+  font-size: 14px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .setSendAddressBtn {
+  width: 30px;
+  height: 100px;
+  float: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .setSendAddressBtn img {
+  width: 10px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail {
+  height: 100px;
+  position: absolute;
+  right: 30px;
+  float: left;
+  margin-bottom: 3px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail .shopName {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail .shopName span {
+  text-align: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail .negozianteName {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail .negozianteName span {
+  text-align: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderSendGoodsAddress .sendAddressDetail .address {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel {
+  width: 100%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .titleArea {
+  width: 100px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  padding-left: 10px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .titleArea span {
+  font-size: 14px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .setpayBtn {
+  width: 30px;
+  height: 50px;
+  float: right;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .setpayBtn img {
+  width: 10px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .payModel {
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  float: left;
+  line-height: 50px;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .payModel span {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.orderBox .orderDetailBox .scrollV .payInfoBox .orderPayModel .payModel span a {
+  font-size: 13px;
+  color: red;
+}
+.payAcountBox {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background: #fafafa;
+  bottom: 0px;
+  border-top: 1px solid #eeeeee;
+}
+.payAcountBox .paySubmit {
+  width: 100px;
+  height: 60px;
+  background: #d79ac4;
+  float: right;
+  line-height: 60px;
+  text-align: center;
+}
+.payAcountBox .paySubmit b {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.payAcountBox .listInfo {
+  position: absolute;
+  left: 0px;
+  right: 100px;
+  height: 60px;
+  float: right;
+  background: #fafafa;
+}
+.payAcountBox .listInfo .payAcountPrice {
+  width: 50%;
+  height: 60px;
+  float: right;
+  text-align: left;
+  line-height: 60px;
+  font-size: 16px;
+}
+.payAcountBox .listInfo .payAcountPrice span {
+  color: #A92586;
+  font-size: 16px;
+}
+.payAcountBox .listInfo .payGoodsAcount {
+  width: 50%;
+  height: 60px;
+  float: right;
+  text-align: center;
+}
+.payAcountBox .listInfo .payGoodsAcount .goodsCountsPrompt {
+  padding-top: 5px;
+}
+.payAcountBox .listInfo .payGoodsAcount .goodsCountsPrompt span {
+  height: 30px;
+  color: #9e9e9e;
+  font-size: 14px;
+}
+.payAcountBox .listInfo .payGoodsAcount .goodsCountsPrompt span b {
+  font-size: 14px;
+  color: #A92586;
+}
+.payAcountBox .listInfo .payGoodsAcount .integralPrompt {
+  width: 100%;
+}
+.payAcountBox .listInfo .payGoodsAcount .integralPrompt span {
+  height: 30px;
+  color: #9e9e9e;
+  font-size: 12px;
+}
+.payAcountBox .listInfo .payGoodsAcount .integralPrompt span b {
+  font-size: 13px;
+  color: #A92586;
+}
+.popBg {
+  background-color: #000;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+}
+.popBox {
+  width: 100%;
+  height: 70%;
+  background: white;
+  position: absolute;
+  z-index: 99999;
+  bottom: -600px;
+  left: 0;
+  float: left;
+}
+.popBox .topTitle {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.popBox .middleBox {
+  width: 100%;
+  height: auto;
+}
+.popBox .middleBox .deliveryBox {
+  width: 100%;
+  height: 36px;
+  background: white;
+  line-height: 36px;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 20px;
+  border-bottom: solid 1px #eee;
+}
+.popBox .middleBox .deliveryBox .deliveryContent {
+  height: 35px;
+  line-height: 36px;
+  float: left;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+.popBox .middleBox .deliveryBox .deliveryPrice {
+  width: 200px;
+  height: 36px;
+  color: #A92586;
+}
+.popBox .middleBox .deliveryBox .deliveryChoice {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: -27px;
+  text-align: center;
+  border: 1px solid #d79ac4;
+  border-radius: 10px;
+}
+.popBox .middleBox .deliveryBox .deliveryChoice img {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+.popBox .bottomBox {
+  width: 100%;
+  height: 80px;
+  float: left;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.popBox .bottomBox .bottomChoice {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: 15px;
+  border: 0px solid #d79ac4;
+  border-radius: 10px;
+}
+.popBox .bottomBox .bottomChoice img {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.popBox .bottomBox .content {
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+.popBox .bottomBox .closeButton {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+  background: #d79ac4 ;
+  color: white;
+}
+.popAddressBox {
+  width: 100%;
+  height: 60%;
+  background: white;
+  position: absolute;
+  z-index: 99999;
+  bottom: 0;
+  left: 0;
+}
+.popAddressBox .addressTitle {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+}
+.popAddressBox .addressBox {
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-bottom: solid 1px #eee;
+  float: left;
+}
+.popAddressBox .addressBox .topContent {
+  height: 20px;
+  width: 90%;
+  font-size: 14px;
+  float: left;
+}
+.popAddressBox .addressBox .bottomContent {
+  width: 90%;
+  height: auto;
+  color: #9e9e9e;
+  font-size: 13px;
+  float: left;
+}
+.popAddressBox .addressBox .choice {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #d79ac4;
+  float: right;
+  margin-top: -10px;
+}
+.popAddressBox .addressBox .choice img {
+  width: 20px;
+  height: 20px;
+}
+.popAddressBox .bottomBox {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+}
+.popAddressBox .bottomBox .inputAddress {
+  position: absolute;
+  width: 70%;
+  height: 40px;
+  left: 15px;
+  top: -30px;
+  border: solid 1px #d79ac4;
+  border-radius: 5px;
+}
+.popAddressBox .bottomBox .search {
+  position: absolute;
+  width: 18%;
+  height: 40px;
+  right: 15px;
+  top: -30px;
+  background: #d79ac4;
+  color: white;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+}
+.popAddressBox .bottomBox .close {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+  background: #d79ac4 ;
+  color: white;
+}
+.popPayModelBg {
+  background-color: #000;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+}
+.popPayModelBox {
+  width: 100%;
+  height: 60%;
+  background: white;
+  position: absolute;
+  z-index: 99999;
+  bottom: 0;
+  left: 0;
+}
+.popPayModelBox .topTitle {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: white;
+}
+.popPayModelBox .modelBox {
+  width: 95%;
+  height: 35px;
+  margin-top: 10px;
+  padding-left: 15px;
+  float: left;
+}
+.popPayModelBox .modelBox .payWay {
+  width: 90%;
+  height: 35px;
+  border-bottom: solid 1px #eee;
+  line-height: 35px;
+  float: left;
+}
+.popPayModelBox .modelBox .confirmChoice {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 7px;
+  border-radius: 10px;
+  border-bottom: solid 1px #d79ac4;
+}
+.popPayModelBox .modelBox .confirmChoice img {
+  width: 20px;
+  height: 20px;
+}
+.popPayModelBox .bottomBox {
+  width: 100%;
+  height: 80px;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+.popPayModelBox .bottomBox .bottomChoice {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.popPayModelBox .bottomBox .bottomChoice img {
+  width: 20px;
+  height: 20px;
+}
+.popPayModelBox .bottomBox .content {
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+.popPayModelBox .bottomBox .closeButton {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+  background: #d79ac4 ;
+  color: white;
+}

@@ -1,0 +1,219 @@
+.contentBox {
+  width: 100%;
+  position: relative;
+}
+.contentBox .scrollBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 60px;
+  height: auto;
+  width: 100%;
+}
+.contentBox .scrollBox .productImgBox {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  font-size: 16px;
+}
+.contentBox .scrollBox .productImgBox .productImg {
+  width: 100%;
+  height: 350px;
+  line-height: 350px;
+  margin: 0 auto;
+}
+.contentBox .scrollBox .productImgBox .productImg img {
+  vertical-align: middle;
+}
+.contentBox .scrollBox .productImgBox .instructions {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+.contentBox .scrollBox .productImgBox .instructions div {
+  margin-left: 45%;
+}
+.contentBox .scrollBox .productImgBox .instructions div img {
+  display: block;
+  float: left;
+}
+.contentBox .scrollBox .productInfoBox {
+  margin-top: 5px;
+  background-color: white;
+  padding: 5% 5% 0 5%;
+}
+.contentBox .scrollBox .productInfoBox .productName {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 2px;
+}
+.contentBox .scrollBox .productInfoBox .productProperty {
+  margin-top: 10px;
+  clear: both;
+}
+.contentBox .scrollBox .productInfoBox .productProperty .productPrice {
+  width: 25%;
+  font-size: 22px;
+  color: #A82285;
+  font-weight: 500;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+}
+.contentBox .scrollBox .productInfoBox .productProperty .productPrice .productPrice_decimal_point {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+.contentBox .scrollBox .productInfoBox .productProperty .freight {
+  width: 50%;
+  display: block;
+  float: right;
+  font-size: 10px;
+  color: #C3C4C4;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox {
+  background-color: #e4e5e7;
+  clear: both;
+  padding-top: 0.1px;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem {
+  background-color: white;
+  margin-top: 1px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .goodsNumber {
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .content {
+  margin-left: 5px;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .number {
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .numberBox {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 45px;
+  border-top: solid 1px #C6C6C6;
+  border-bottom: solid 1px #C6C6C6;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .numberBox .accountBox {
+  float: left;
+  width: 35px;
+  height: 30px;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .numberBox .accountBox img {
+  width: 35px;
+  height: 30px;
+}
+.contentBox .scrollBox .productInfoBox .productOtherBox .productOtherItem .numberBox .accountBox_number {
+  float: left;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: none;
+}
+.contentBox .scrollBox .product_Details {
+  margin-top: 3px;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+.contentBox .scrollBox .product_Details .product_Details_Block {
+  width: 5px;
+  height: 100%;
+  background-color: #D39AC5;
+  float: left;
+}
+.contentBox .scrollBox .product_Details .en {
+  color: #D39AC5;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.contentBox .scrollBox .product_Details span {
+  display: block;
+  float: left;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 13px;
+}
+.contentBox .addCartBar {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 9999;
+  box-shadow: 0px -2px 2px #E0E0E0;
+}
+.contentBox .addCartBar .cartBox {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.contentBox .addCartBar .cartBox .cartTag {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.contentBox .addCartBar .cartBox .cartNumber {
+  position: relative;
+  background-color: #D39AC5;
+  width: auto;
+  height: 20px;
+  border-radius: 20px;
+  top: -5px;
+  left: -7px;
+  float: left;
+  padding: 0 3px;
+  color: white;
+  font-size: 8px;
+}
+.contentBox .addCartBar .line {
+  width: 2px;
+  background-color: #999999;
+  height: 35px;
+  float: left;
+}
+.contentBox .addCartBar .addCartBarButton {
+  float: left;
+  background-color: #D39AC5;
+  width: 65%;
+  height: 35px;
+  border-radius: 25px;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+}
+.goodsDetailBox {
+  margin: -6px;
+}
+.goodsDetailBox img {
+  width: 100%;
+  height: auto;
+}

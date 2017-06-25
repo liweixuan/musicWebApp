@@ -1,0 +1,203 @@
+.outBox {
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+.outBox .manageContent {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+.outBox .manageContent .manageScroll {
+  width: 100%;
+  height: 100%;
+}
+.outBox .manageContent .manageScroll .editBox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem {
+  width: 100%;
+  height: 80px;
+  background: white;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .userInfo {
+  width: 100%;
+  height: 30px;
+  float: left;
+  margin-top: 5px;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .userInfo .name {
+  width: 50%;
+  height: 30px;
+  float: left;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .userInfo .name span {
+  text-align: center;
+  font-size: 16px;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .userInfo .mobile {
+  width: 50%;
+  height: 30px;
+  float: left;
+  padding-top: 10px;
+  text-align: right;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .userInfo .mobile span {
+  padding-right: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .shippingAddressContent {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editBox .happyHomeAddressItem .shippingAddressContent span {
+  color: #BB55A0;
+}
+.outBox .manageContent .manageScroll .editOperationArea {
+  width: 100%;
+  height: 50px;
+  margin-top: 2px;
+  background: white;
+}
+.outBox .manageContent .manageScroll .editOperationArea .selectDefaultBox {
+  width: 60%;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .selectDefaultBox .selectBtn {
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  margin-top: 14px;
+  margin-left: 10px;
+  border-radius: 11px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editOperationArea .selectDefaultBox .selectBtn img {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 11px;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editOperationArea .selectDefaultBox .defaultAddress {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editOperationArea .selectDefaultBox .defaultAddress span {
+  font-size: 16px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .editBtnBox {
+  width: 20%;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .editBtnBox .editBtnImg {
+  width: 20px;
+  margin-top: 13px;
+  float: left;
+  line-height: 24px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .editBtnBox .editBtnImg img {
+  width: 20px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .editBtnBox .promptArea {
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editOperationArea .editBtnBox .promptArea span {
+  font-size: 16px;
+  color: #BCBCBC;
+}
+.outBox .manageContent .manageScroll .editOperationArea .deleteBtnBox {
+  width: 20%;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .deleteBtnBox .deleteBtnImg {
+  width: 20px;
+  margin-top: 13px;
+  float: left;
+  line-height: 24px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .deleteBtnBox .deleteBtnImg img {
+  width: 20px;
+}
+.outBox .manageContent .manageScroll .editOperationArea .deleteBtnBox .promptArea {
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+  float: left;
+}
+.outBox .manageContent .manageScroll .editOperationArea .deleteBtnBox .promptArea span {
+  font-size: 14px;
+  color: #BCBCBC;
+}
+.outBox .addAddressBtn {
+  width: 100%;
+  height: 50px;
+  background: #dda8cc;
+  position: absolute;
+  bottom: 0px;
+  line-height: 50px;
+  text-align: center;
+  display: none;
+}
+.outBox .addAddressBtn span {
+  color: white;
+  font-size: 18px;
+}
+.outBox .noAddress {
+  width: 220px;
+  margin: 0px auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 99999;
+  margin-top: -130px;
+  margin-left: -110px;
+}
+.outBox .noAddress img {
+  width: 200px;
+  margin-left: 10px;
+}
+.outBox .noAddress p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #999;
+}
+.outBox .noAddress button {
+  width: 190px;
+  height: 40px;
+  background: #d39ac5;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  color: #fff;
+}

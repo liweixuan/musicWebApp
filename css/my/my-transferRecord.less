@@ -1,0 +1,167 @@
+.wh(@w:100%,@h:100%) {
+  width: @w;
+  height: @h;
+
+}
+
+.mt(@top:0px) {
+  margin-top: @top;
+}
+
+.mb(@bottom:0px) {
+  margin-bottom: @bottom;
+}
+
+.mr(@right:0px) {
+  margin-right: @right;
+}
+
+.ml(@l:0px) {
+  margin-left: @l;
+}
+
+.border(b ,@w:1px ,@c:#eee) {
+  border-bottom: solid @w @c;
+}
+
+.border(t ,@w:1px ,@c:#eee) {
+  border-top: solid @w @c;
+}
+
+.border(r ,@w:1px ,@c:#eee) {
+  border-right: solid @w @c;
+}
+
+.border(l ,@w:1px ,@c:#eee) {
+  border-left: solid @w @c;
+}
+
+.border(@_, @w:1px,@c:#eee) {
+}
+
+.border(@w:1px,@c:#eee) {
+  border: solid @w @c;
+}
+
+.bc(@c:white) {
+  background: @c;
+}
+
+.pl(@l:01px) {
+  padding-left: @l;
+}
+
+.pr(@r:0px) {
+  padding-right: @r;
+}
+
+.pt(@t:0px) {
+  padding-top: @t;
+}
+
+/*浮动 默认左浮动*/
+.f(@d:left) {
+  float: @d;
+}
+
+.vt_Box {
+  margin: 5px;
+  .bc(white);
+
+}
+
+.tr_navBox {
+  top: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  @h: 54px;
+  .wh(100%, @h);
+  .bc(white);
+  border-bottom: solid 1px #E0E0E0;
+
+
+  .tr_nav {
+    padding: 10px 0px; ;
+    text-align: center;
+    .wh(33.3%, @h);
+    .f();
+   border-right: solid 1px #E0E0E0;
+    color: #020202;
+    line-height: 34px;
+  }
+  .tr_nav:last-child {
+    border: none;
+  }
+  .tr_nav:first-child {
+      color: #d39bc5;
+  }
+}
+
+.tr_itemBox {
+  width: 100%;
+  min-height: 250px;
+  .bc(white);
+  .mb(8px);
+
+  @h: 50px;
+  .transInPersonBox, .tr_transOutPersonBox,
+  .transMoneyBox, .transTimeBox {
+    .wh(100%, @h);
+  }
+  .tr_transOutPersonBox, .transMoneyBox {
+    .border(b);
+
+  }
+  .tr_NameBox {
+    @ti: 20px;
+    color: #262626;
+    text-indent: @ti;
+    line-height: @h;
+    font-size: 15px;
+    max-width: 50%;
+    min-width: 90px;
+    overflow: hidden;
+    .f();
+  }
+
+  .tr_ValueBox {
+    height: @h;
+    max-width: 80%;
+    min-width: 65%;
+    color: #262626;
+    line-height: @h;
+    .ml(5px);
+    .f();
+  }
+
+  .transRemarkBox {
+    width: 100%;
+
+
+
+
+    .tr_RemarkName {
+      @ti: 20px;
+      color: #262626;
+      text-indent: @ti;
+      font-size: 15px;
+      max-width: 50%;
+      min-width: 90px;
+      overflow: hidden;
+      height: 50px;
+      line-height: 50px;
+      .f();
+    }
+    .tr_RemarkValue {
+      margin-top: 16px;
+      max-width: 67%;
+      color: red;
+      .f();
+      padding-bottom: 10px;
+
+    }
+  }
+
+}
+

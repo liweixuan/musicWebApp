@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 禁止用户对屏幕进行缩放-->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <title>WebApp商城</title>
+
+    <!-- 加载ionic样式文件 -->
+    <link rel="stylesheet" href="lib/css/ionic.css"/>
+
+    <!-- 加载主样式文件 -->
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- 加载ionic库文件 -->
+    <script src="lib/js/ionic.bundle.min.js"></script>
+
+    <!-- 加载ionic懒加载插件 -->
+    <!--<script src="lib/js/ocLazyLoad.core.js"></script>-->
+
+    <!-- 加载require入口文件 -->
+    <script src="lib/js/require.min.js" data-main="js/main.js"></script>
+
+</head>
+
+<body>
+
+<!-- 导航栏 -->
+<ion-nav-bar class="bar-stable">
+
+    <!-- 跳转后出现后退按钮 -->
+    <ion-nav-back-button>
+
+    </ion-nav-back-button>
+
+</ion-nav-bar>
+
+<!-- 初始化时渲染视图模板 -->
+<ion-nav-view></ion-nav-view>
+
+</body>
+
+
+</html>

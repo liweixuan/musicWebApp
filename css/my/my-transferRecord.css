@@ -1,0 +1,89 @@
+/*浮动 默认左浮动*/
+.vt_Box {
+  margin: 5px;
+  background: white;
+}
+.tr_navBox {
+  top: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 54px;
+  background: white;
+  border-bottom: solid 1px #E0E0E0;
+}
+.tr_navBox .tr_nav {
+  padding: 10px 0px;
+  text-align: center;
+  width: 33.3%;
+  height: 54px;
+  float: left;
+  border-right: solid 1px #E0E0E0;
+  color: #020202;
+  line-height: 34px;
+}
+.tr_navBox .tr_nav:last-child {
+  border: none;
+}
+.tr_navBox .tr_nav:first-child {
+  color: #d39bc5;
+}
+.tr_itemBox {
+  width: 100%;
+  min-height: 250px;
+  background: white;
+  margin-bottom: 8px;
+}
+.tr_itemBox .transInPersonBox,
+.tr_itemBox .tr_transOutPersonBox,
+.tr_itemBox .transMoneyBox,
+.tr_itemBox .transTimeBox {
+  width: 100%;
+  height: 50px;
+}
+.tr_itemBox .tr_transOutPersonBox,
+.tr_itemBox .transMoneyBox {
+  border-bottom: solid 1px #eee;
+  border: solid b #eee;
+}
+.tr_itemBox .tr_NameBox {
+  color: #262626;
+  text-indent: 20px;
+  line-height: 50px;
+  font-size: 15px;
+  max-width: 50%;
+  min-width: 90px;
+  overflow: hidden;
+  float: left;
+}
+.tr_itemBox .tr_ValueBox {
+  height: 50px;
+  max-width: 80%;
+  min-width: 65%;
+  color: #262626;
+  line-height: 50px;
+  margin-left: 5px;
+  float: left;
+}
+.tr_itemBox .transRemarkBox {
+  width: 100%;
+}
+.tr_itemBox .transRemarkBox .tr_RemarkName {
+  color: #262626;
+  text-indent: 20px;
+  font-size: 15px;
+  max-width: 50%;
+  min-width: 90px;
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+}
+.tr_itemBox .transRemarkBox .tr_RemarkValue {
+  margin-top: 16px;
+  max-width: 67%;
+  color: red;
+  float: left;
+  padding-bottom: 10px;
+}

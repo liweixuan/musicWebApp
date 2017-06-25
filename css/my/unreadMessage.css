@@ -1,0 +1,96 @@
+/*浮动 默认左浮动*/
+/*每一条消息的容器*/
+.itemBox {
+  width: 100%;
+  height: 120px;
+  border-bottom: solid 1px #eee;
+  border-top: solid 1px #eee;
+  background: white;
+  padding-left: 5px;
+  padding-right: 10px;
+  margin-bottom: 6px;
+  /*左边的图标*/
+}
+.itemBox .leftIconBox {
+  width: 20%;
+  height: 120px;
+  text-align: center;
+  float: left;
+}
+.itemBox .leftIconBox .messageIcon {
+  width: 30px;
+  height: 30px;
+  margin-top: 45px;
+}
+.itemBox .messageBox {
+  width: 80%;
+  height: 120px;
+  float: left;
+  /*标题区域*/
+  /*内容区域*/
+}
+.itemBox .messageBox .titleBox {
+  width: 100%;
+  height: 50%;
+  /*标题*/
+  /*时间*/
+}
+.itemBox .messageBox .titleBox .title {
+  width: 65%;
+  height: 100%;
+  float: left;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #020202;
+}
+.itemBox .messageBox .titleBox .time {
+  width: 35%;
+  height: 100%;
+  float: right;
+  text-align: right;
+  font-size: 14px;
+  color: #999c9c;
+  padding-top: 30px;
+}
+.itemBox .messageBox .contentBox {
+  width: 100%;
+  height: 40%;
+  color: #020202;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.umd_Box {
+  background: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.umd_Box .umd_titleBox {
+  padding: 10px 20px 0;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+}
+.umd_Box .umd_belongBox {
+  margin: 10px 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.umd_Box .umd_belongBox .umd_createUser {
+  float: left;
+  color: #999c9c;
+  max-width: 50%;
+}
+.umd_Box .umd_belongBox .umd_createTime {
+  float: right;
+  color: #999c9c;
+}
+.umd_Box .umd_content {
+  margin: 10px 10px ;
+  padding-bottom: 5px;
+}
+.umd_Box .umd_content img {
+  width: 90%;
+  height: auto;
+}

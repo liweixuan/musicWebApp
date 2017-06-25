@@ -1,0 +1,71 @@
+/*
+ * 初始化加载样式
+ */
+.loadingBox {
+	width:100%;
+	height:auto;
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(240,240,240,1);
+	z-index:999999;
+}
+
+.loadingBox .loadingImage {
+	width:80px;
+	height:80px;
+	text-align: center;
+	line-height:80px;
+	margin:0px auto;
+	margin-top:150px;
+}
+
+.loadingBox .loadingImage img {
+	width:100%;
+	height:100%;
+}
+
+.loadingBox .loadingText {
+	width:100%;
+	height:30px;
+	margin-top:5px;
+	text-align: center;
+}
+
+
+/*
+ * 网络请求错误界面样式
+ */
+.loadErrorBox {
+	width:100%;
+	height:auto;
+	background:#F5F5F5;
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	z-index:999999999;
+}
+
+.loadErrorBox .loadErrorImage {
+	width:100%;
+	height:60px;
+	text-align: center;
+	line-height:80px;
+	margin-top:150px;
+	font-size:60px;
+	color:#999;
+}
+
+.loadErrorBox .loadErrorText {
+	width:100%;
+	height:30px;
+	margin-top:50px;
+	color:#999;
+	text-align: center;
+}
+
+

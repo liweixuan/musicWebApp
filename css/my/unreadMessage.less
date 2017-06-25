@@ -1,0 +1,158 @@
+.wh(@w:100%,@h:100%) {
+  width: @w;
+  height: @h;
+}
+
+.mt(@top:0px) {
+  margin-top: @top;
+}
+
+.mb(@bottom:0px) {
+  margin-bottom: @bottom;
+}
+
+.border(b ,@w:1px ,@c:#eee) {
+  border-bottom: solid @w @c;
+}
+
+.border(t ,@w:1px ,@c:#eee) {
+  border-top: solid @w @c;
+}
+
+.border(r ,@w:1px ,@c:#eee) {
+  border-right: solid @w @c;
+}
+
+.border(l ,@w:1px ,@c:#eee) {
+  border-left: solid @w @c;
+}
+
+.border(@_, @w:1px,@c:#eee) {
+}
+
+.bc(@c:white) {
+  background: @c;
+}
+
+.pl(@l:01px) {
+  padding-left: @l;
+}
+
+.pr(@r:0px) {
+  padding-right: @r;
+}
+
+.pt(@t:0px) {
+  padding-top: @t;
+}
+
+/*浮动 默认左浮动*/
+.f(@d:left) {
+  float: @d;
+}
+
+/*每一条消息的容器*/
+.itemBox {
+  @h: 120px;
+  @bc: white;
+
+  .wh(100%, @h);
+  .border(b);
+  .border(t);
+  .bc(@bc);
+  .pl(5px);
+  .pr(10px);
+  .mb(6px);
+
+  /*左边的图标*/
+  .leftIconBox {
+    .wh(20%, @h);
+    text-align: center;
+    .f();
+    .messageIcon {
+      @ih: 30px;
+      .wh(@ih, @ih);
+      .mt((@h - @ih) /2);
+    }
+  }
+  .messageBox {
+    .wh(80%, @h);
+    .f();
+
+    /*标题区域*/
+    .titleBox {
+      .wh(100%, 50%);
+
+      /*标题*/
+      .title {
+        .wh(65%, 100%);
+        .f();
+
+        .pt(30px);
+        font-size: 15px;
+        font-weight: 500;
+        color: #020202;
+      }
+      /*时间*/
+      .time {
+        .wh(35%, 100%);
+        float: right;
+        text-align: right;
+        font-size: 14px;
+        color: #999c9c;
+        .pt(30px);
+      }
+    }
+    /*内容区域*/
+    .contentBox {
+      .wh(100%, 40%);
+      color: #020202;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+  }
+
+}
+
+.umd_Box {
+  .bc(white);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+  .umd_titleBox {
+    padding: 10px 20px 0;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  .umd_belongBox{
+
+    margin: 10px 10px;
+    height: 40px;
+    line-height: 40px;
+
+
+    .umd_createUser{
+      .f();
+      color: #999c9c;
+      max-width: 50%;
+    }
+    .umd_createTime{
+      .f(right);
+      color: #999c9c;
+    }
+
+  }
+  .umd_content{
+    margin: 10px 10px ;
+    padding-bottom: 5px;
+
+    img{
+      width: 90%;
+      height: auto;
+    }
+
+  }
+}

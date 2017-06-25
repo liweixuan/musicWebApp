@@ -1,0 +1,85 @@
+.of_navBox {
+  height: 55px;
+  width: 1045px;
+  background-color: white;
+  border-bottom: solid 1px #E0E0E0;
+}
+.of_navBox .of_nav {
+  line-height: 55px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  border-right: solid 1px #E0E0E0;
+  text-align: center;
+  color: #020202;
+}
+.of_navBox .of_nav:last-child {
+  border: none;
+}
+.of_navBox .of_nav:first-child {
+  color: #d39bc5;
+}
+.mo_contentBox {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  right: 0px;
+  bottom: 0;
+}
+.of_itemBox {
+  margin-top: 6px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.of_itemBox .of_moneyBox {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 1px #eee;
+}
+.of_itemBox .of_moneyBox .of_leftBox {
+  height: 50px;
+  width: 60%;
+  float: left;
+}
+.of_itemBox .of_moneyBox .of_leftBox .of_moneyName {
+  margin-left: 10%;
+}
+.of_itemBox .of_moneyBox .of_leftBox .of_moneyVal {
+  color: #a92486;
+  font-size: 16px;
+}
+.of_itemBox .of_moneyBox .of_rightBox {
+  height: 50px;
+  width: 38%;
+  float: left;
+  text-align: right;
+  margin-right: 2%;
+}
+.of_itemBox .of_moneyBox .of_rightBox .of_moneyTime {
+  font-size: 12px;
+  color: #999c9c;
+}
+.of_itemBox .of_detailBox {
+  width: 100%;
+  height: auto;
+  margin-left: 5%;
+}
+.of_itemBox .of_detailBox .of_termBox {
+  width: 100%;
+  height: 30px;
+}
+.of_itemBox .of_detailBox .of_termBox .of_termNameBox {
+  float: left;
+  line-height: 30px;
+  width: 25%;
+  color: #020202;
+}
+.of_itemBox .of_detailBox .of_termBox .of_termValBox {
+  float: left;
+  line-height: 30px;
+  width: 75%;
+  color: #999c9c;
+}

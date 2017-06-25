@@ -1,0 +1,312 @@
+.newAddressBox {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #f5f5f5;
+  margin-top: 60px;
+}
+.newAddressBox .reciever {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .reciever .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .reciever .title span {
+  font-size: 16px;
+}
+.newAddressBox .reciever .recieverName {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .mobile {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .mobile .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .mobile .title span {
+  font-size: 16px;
+}
+.newAddressBox .mobile .recieverNumber {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .familyNumber {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .familyNumber .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .familyNumber .title span {
+  font-size: 16px;
+}
+.newAddressBox .familyNumber .telNumber {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .location {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .location .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .location .title span {
+  font-size: 16px;
+}
+.newAddressBox .location .selectAction {
+  width: 180px;
+  height: 50px;
+  float: right;
+  text-align: right;
+}
+.newAddressBox .location .selectAction .next {
+  width: 30px;
+  height: 50px;
+  float: right;
+}
+.newAddressBox .location .selectAction .next .nextBtnImg {
+  width: 10px;
+  height: 20px;
+  margin-top: 15px;
+}
+.newAddressBox .location .selectAction .select-location {
+  width: 150px;
+  height: 50px;
+  float: left;
+  text-align: left;
+}
+.newAddressBox .location .selectAction .select-location span {
+  font-size: 13px;
+  color: #000000;
+}
+.newAddressBox .street {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .street .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+.newAddressBox .street .title span {
+  font-size: 16px;
+}
+.newAddressBox .street .selectAction {
+  width: 180px;
+  height: 50px;
+  float: right;
+  text-align: right;
+}
+.newAddressBox .street .selectAction .next {
+  width: 30px;
+  height: 50px;
+  float: right;
+}
+.newAddressBox .street .selectAction .next .nextBtnImg {
+  width: 10px;
+  height: 20px;
+  margin-top: 15px;
+}
+.newAddressBox .street .selectAction .select-street {
+  width: 150px;
+  height: 50px;
+  float: right;
+  text-align: right;
+}
+.newAddressBox .street .selectAction .select-street span {
+  font-size: 13px;
+  color: #BCBCBC;
+}
+.newAddressBox .address_categray {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .address_categray .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .address_categray .title span {
+  font-size: 16px;
+}
+.newAddressBox .address_categray .categray {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .address_zipcode {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .address_zipcode .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .address_zipcode .title span {
+  font-size: 16px;
+}
+.newAddressBox .address_zipcode .zipcode {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .address_email {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .address_email .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .address_email .title span {
+  font-size: 16px;
+}
+.newAddressBox .address_email .email {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .sign_building {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .sign_building .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .sign_building .title span {
+  font-size: 16px;
+}
+.newAddressBox .sign_building .building {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .best_time {
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 50px;
+  background: white;
+}
+.newAddressBox .best_time .title {
+  width: 100px;
+  height: 50px;
+  float: left;
+  background: white;
+}
+.newAddressBox .best_time .title span {
+  font-size: 16px;
+}
+.newAddressBox .best_time .time {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 13px;
+}
+.newAddressBox .detail {
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin-bottom: 3px;
+}
+.newAddressBox .detail .inputArea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}

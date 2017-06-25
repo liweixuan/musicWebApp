@@ -1,0 +1,161 @@
+*{margin:0px;padding:0px;}
+a{text-decoration: none;}
+body{font-size:14px;}
+.scroll-content { background:#F5F5F5;}
+
+/*通屏按钮样式*/
+.buttonPadding {
+    width:94%;
+    margin-left:3%;
+    margin-top:15px;
+}
+
+/*公共头样式*/
+.headerBox {
+  width: 100%;
+  height: 60px;
+  z-index:99999999;
+  position: relative;
+  background:url("../../resource/images/icon/top_background.png") no-repeat;
+  background-size: cover;
+
+    .logoBox {
+         width:120px;
+         height:60px;
+         float:left;
+
+         .logoMain {
+             width:100px;
+             height:50px;
+             float:left;
+             margin-top:0px;
+             text-align:center;
+             line-height:50px;
+             margin-left:10px;
+
+             img {
+                 width:100%;
+                 height:auto;
+                 position:relative;
+                 top:10px;
+                 margin-left:5px;
+             }
+         }
+     }
+
+    .searchBox {
+        position:absolute;
+        left:120px;
+        right:0px;
+        top:0px;
+        bottom:0px;
+
+        .searchInputBox {
+            width:92%;
+            height:35px;
+            float:left;
+            margin-top:10px;
+            margin-left:5%;
+            position:relative;
+
+            input {
+                width:100%;
+                height:35px;
+                border:none;
+                border-radius:5px;
+                padding-left:35px;
+                padding-right:10px;
+            }
+
+            i {
+                position:absolute;
+                left:10px;
+                top:6px;
+                font-size:24px;
+                color:#D29BC4;
+            }
+        }
+     }
+
+    .leftHeaderBox {
+        width:30%;
+        height:60px;
+        float:left;
+        line-height:60px;
+
+        img {
+            width:30px;
+            height:auto;
+            margin-left:10px;
+            position:relative;
+            top:5px;
+        }
+    }
+
+    .middleHeaderBox {
+        width:40%;
+        height:60px;
+        font-size:16px;
+        float:left;
+        text-align: center;
+        line-height:60px;
+    }
+
+    .rightHeaderBox {
+        width:30%;
+        height:60px;
+        float:right;
+        line-height:60px;
+        text-align: right;
+        padding-right:10px;
+        position:relative;
+         font-size: 12px;
+
+        img {
+            width:30px;
+            height:auto;
+            position:relative;
+            top:5px;
+        }
+
+        .iconHint {
+            width:10px;
+            height:10px;
+            background:red;
+            position:absolute;
+            border-radius:5px;
+            top:15px;
+            right:5px;
+        }
+    }
+}
+
+
+/*通用组件样式*/
+.loactionBox {
+    width:100%;
+    display:none;
+    height:100%;
+    position:relative;
+    background-color:rgba(0,0,0,0.2);
+    position:absolute;
+    top:0px;
+    z-index:99999;
+}
+
+.loactionBox .locationMain {
+        width:100%;
+        height:240px;
+        background:#fff;
+        text-align: center;
+        line-height:240px;
+        position:absolute;
+        bottom:-240px;
+        z-index:9999999;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

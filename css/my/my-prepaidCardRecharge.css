@@ -1,0 +1,74 @@
+.contentBox {
+  background-color: white;
+  margin: 2px;
+}
+.contentBox .hintBox {
+  width: 100%;
+  color: #F14444;
+  padding: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+}
+.contentBox .hintBox .line {
+  background-color: #eeeeee;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.contentBox .re_cardItem {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  clear: both;
+  height: 60px;
+}
+.contentBox .re_cardItem .re_left {
+  width: 40%;
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+.contentBox .re_cardItem .re_left .redStar {
+  float: left;
+  color: red;
+  margin-right: 3px;
+}
+.contentBox .re_cardItem .text {
+  width: 60%;
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+.contentBox .re_cardItem .line {
+  background-color: #eeeeee;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.contentBox .buttonBox {
+  position: relative;
+  height: 90px;
+  padding: 30px 8px;
+}
+.contentBox .buttonBox div {
+  background-color: #D39AC5;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+.contentBox .buttonBox .line {
+  background-color: #eeeeee;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}

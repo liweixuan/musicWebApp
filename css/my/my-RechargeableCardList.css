@@ -1,0 +1,69 @@
+.contentBox .title {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  line-height: 50px;
+  font-weight: 500;
+}
+.contentBox .title .ACard {
+  border-bottom: solid 1px #E0E0E0;
+  width: 33%;
+  text-align: center;
+  float: left;
+  color: #D39AC5;
+}
+.contentBox .title .BCard {
+  border-bottom: solid 1px #E0E0E0;
+  width: 33%;
+  text-align: center;
+  float: left;
+  color: black;
+}
+.contentBox .title .CCard {
+  border-bottom: solid 1px #E0E0E0;
+  width: 33%;
+  text-align: center;
+  float: left;
+  color: black;
+}
+.contentBox .title .line {
+  border-bottom: solid 1px #E0E0E0;
+  width: 1px;
+  height: 50px;
+  float: left;
+  background-color: #E0E0E0;
+}
+.contentBox .listBox {
+  width: 100%;
+  height: 100%;
+}
+.contentBox .listBox .re_itemCardBox {
+  background-color: white;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px;
+  margin: 20px 2px;
+}
+.contentBox .listBox .re_itemCardBox .re_itemRowBox {
+  height: 35px;
+  position: relative;
+  line-height: 35px;
+}
+.contentBox .listBox .re_itemCardBox .re_itemRowBox .re_itemRowLeft {
+  float: left;
+  width: 25%;
+  margin-left: 5%;
+}
+.contentBox .listBox .re_itemCardBox .re_itemRowBox .re_itemRowRight {
+  float: left;
+  width: 65%;
+}
+.contentBox .listBox .re_itemCardBox .re_itemRowBox .re_line {
+  height: 1px;
+  width: 100%;
+  background-color: #eeeeee;
+  clear: both;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: 1px 0px 1px #fefefe;
+}

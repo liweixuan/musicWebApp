@@ -1,0 +1,73 @@
+.searchBox {
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  background: #eeeeee;
+  line-height: 40px;
+  float: left;
+  border-bottom: 1px solid #eee;
+}
+.searchBox .searchInput {
+  width: 65%;
+  height: 28px;
+  margin-left: 15px;
+  background: white;
+  border-radius: 28px;
+  padding-left: 20px;
+  line-height: 28px;
+  float: left;
+}
+.searchBox .searchBtn {
+  width: 18%;
+  height: 30px;
+  background: #4b8bf4;
+  float: left;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.serviceRelationBox {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.serviceRelationBox .userInfoBox {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 1px #eee;
+}
+.serviceRelationBox .userInfoBox .accountName {
+  height: 50px;
+  width: 100%;
+  float: left;
+}
+.serviceRelationBox .userInfoBox .accountName .namePrompt {
+  margin-left: 15px;
+}
+.serviceRelationBox .userInfoBox .accountName .mainName {
+  color: #a92486;
+  font-size: 16px;
+}
+.serviceRelationBox .serviceRelationshipDetailBox {
+  width: 100%;
+  height: auto;
+}
+.serviceRelationBox .serviceRelationshipDetailBox .serviceItem {
+  width: 100%;
+  height: 30px;
+  margin-left: 15px;
+}
+.serviceRelationBox .serviceRelationshipDetailBox .serviceItem .promptTitle {
+  float: left;
+  line-height: 30px;
+  width: 25%;
+  color: #020202;
+}
+.serviceRelationBox .serviceRelationshipDetailBox .serviceItem .promptContent {
+  float: left;
+  line-height: 30px;
+  width: 75%;
+  color: #999c9c;
+}

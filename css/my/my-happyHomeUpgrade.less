@@ -1,0 +1,157 @@
+.popRegionBox {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99999999999;
+  .selectBox {
+    width: 80%;
+    position: absolute;
+    z-index: 9999999999;
+    top: 50%;
+    left: 10%;
+    background: red;
+  }
+}
+
+ion-content {
+  .title {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    //ion-scroll {
+    .of_navBox {
+      height: 50px;
+      width: 100%;
+      position: relative;
+      z-index: -99;
+      background-color: white;
+      .of_nav {
+        margin-top: 5px;
+        line-height: 50px;
+        width: 120px;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+        border-right: solid 1px #eee;
+        text-align: center;
+        color: #020202;
+      }
+
+      .of_nav:last-child {
+        border: none;
+
+      }
+      .of_nav:first-child {
+        color: #d39bc5;
+      }
+    }
+    // }
+
+  }
+  .content {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    ion-scroll {
+      width: 100%;
+      height: 100%;
+      //position: absolute;
+      background-color: white;
+      .contentBox {
+        background-color: white;
+        .rowBox {
+          padding: 20px;
+          font-size: 16px;
+          font-weight: 400;
+          position: relative;
+          clear: both;
+          height: 60px;
+          background-color: white;
+          .leftBox {
+            display: block;
+            float: left;
+            width: 35%;
+            height: 20px;
+            line-height: 20px;
+            .redStar {
+              color: red;
+              margin-right: 3px;
+            }
+          }
+
+          .rightBox {
+            display: block;
+            float: left;
+            width: 65%;
+            height: 20px;
+            line-height: 20px;
+            input {
+              background-color: white;
+              float: left;
+              height: 20px;
+              line-height: 20px;
+              display: block;
+              width: 100%;
+            }
+            .waring {
+              height: 10px;
+              color: red;
+              font-size: 10px;
+              float: left;
+            }
+            .span {
+              height: 20px;
+              line-height: 20px;
+            }
+          }
+
+        }
+
+        .line {
+          clear: both;
+          background-color: #eeeeee;
+          width: 98%;
+          height: 1px;
+        }
+        .rowBottomBox {
+          //background-color: white;
+          margin-top: 15px;
+          width: 100%;
+          height: 65px;
+          padding: 0 5%;
+          background-color: white;
+          .submitButton {
+            width: 48%;
+            height: 50px;
+            background-color: #D39AC5;
+            border-radius: 3px;
+            color: white;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+          }
+          .resetButton {
+            width: 48%;
+            height: 50px;
+            border-radius: 3px;
+            background-color: #AAAAAA;
+            color: white;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+            margin-left: 4%;
+          }
+        }
+      }
+    }
+
+  }
+
+}

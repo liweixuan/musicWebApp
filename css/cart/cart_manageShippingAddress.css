@@ -1,0 +1,83 @@
+.outBox {
+  width: 100%;
+  background: #BB55A0;
+}
+/*
+.shippingAddressBox{
+  width: 100%;
+  position: relative;
+
+  .shippingAddressItem{
+
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin-top: 2px;
+
+    .userInfo{
+      width: 100%;
+      height: 30px;
+      float: left;
+
+
+      .name{
+
+        width: 50%;
+        height: 30px;
+        float: left;
+        line-height: 30px;
+        text-align: left;
+        padding-left: 10px;
+
+        span{
+          text-align: center;
+          font-size: 14px;
+        }
+
+      }
+
+      .mobile{
+        width: 50%;
+        height: 30px;
+        float: left;
+        line-height: 30px;
+        text-align: right;
+
+        span{
+          padding-right: 10px;
+          text-align: center;
+          font-size: 14px;
+        }
+
+      }
+    }
+    .shippingAddressContent{
+      width:100%;
+      height: 70px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      text-align: left;
+      font-size: 14px;
+      float: left;
+
+
+
+      span{
+
+        color: #BB55A0;
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+}
+*/
